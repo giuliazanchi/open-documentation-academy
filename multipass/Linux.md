@@ -137,7 +137,7 @@ minikube                                      latest           minikube is local
 
 Let’s launch an instance running Ubuntu 22.10 (“Kinetic Kudu”) by typing the command `multipass launch kinetic`
 
-Now we have an instance running which has been named randomly by Multipass, in my case it is called coherent-trumpetfish.
+Now we have an instance running which has been named randomly by Multipass, in my case it is called "coherent-trumpetfish".
 
 ```plain
 $ multipass launch kinetic
@@ -159,7 +159,7 @@ Release:		22.10
 Codename:		kinetic
 ```
 
-Perhaps after using this instance for a while, we decide what we really need is the latest LTS version of Ubuntu, with a more informative name and a little more memory and disk. We can delete the coherent-trumpetfish instance by running
+Perhaps after using this instance for a while, we decide what we really need is the latest LTS version of Ubuntu, with a more informative name and a little more memory and disk. We can delete the "coherent-trumpetfish" instance by running
 
 `multipass delete coherent-trumpetfish`
 
@@ -195,7 +195,7 @@ coherent-trumpetfish    Deleted           --               Not Available
 ltsInstance             Running           10.110.66.139    Ubuntu 22.04 LTS
 ```
 
-We have two instances currently running, the primary instance and our LTS machine with customised specs. Our coherent-trumpetfish instance is still listed, but its state is “Deleted”. We can recover this instance by running `multipass recover coherent-trumpetfish`, but for right now let’s delete the instance permanently by running `multipass purge`. Running `multipass list` again confirms the instance is now permanently deleted: 
+We have two instances currently running, the primary instance and our LTS machine with customised specs. Our "coherent-trumpetfish" instance is still listed, but its state is “Deleted”. We can recover this instance by running `multipass recover coherent-trumpetfish`, but for right now let’s delete the instance permanently by running `multipass purge`. Running `multipass list` again confirms the instance is now permanently deleted: 
 
 ```plain
 $ multipass list
